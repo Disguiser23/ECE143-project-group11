@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="Charging Locations <= 0.355\nmse = 0.0\nsamples = 49\nvalue = 0.01"] ;
+1 [label="Charging Locations <= 0.204\nmse = 0.0\nsamples = 35\nvalue = 0.004"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Charging Locations <= 0.153\nmse = 0.0\nsamples = 26\nvalue = 0.002"] ;
+1 -> 2 ;
+3 [label="mse = 0.0\nsamples = 21\nvalue = 0.002"] ;
+2 -> 3 ;
+4 [label="mse = 0.0\nsamples = 5\nvalue = 0.005"] ;
+2 -> 4 ;
+5 [label="Commute time <= 0.857\nmse = 0.0\nsamples = 9\nvalue = 0.011"] ;
+1 -> 5 ;
+6 [label="mse = 0.0\nsamples = 8\nvalue = 0.009"] ;
+5 -> 6 ;
+7 [label="mse = -0.0\nsamples = 1\nvalue = 0.025"] ;
+5 -> 7 ;
+8 [label="Charging Locations <= 0.688\nmse = 0.0\nsamples = 14\nvalue = 0.024"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="Charging Locations <= 0.493\nmse = 0.0\nsamples = 10\nvalue = 0.019"] ;
+8 -> 9 ;
+10 [label="mse = 0.0\nsamples = 6\nvalue = 0.016"] ;
+9 -> 10 ;
+11 [label="mse = 0.0\nsamples = 4\nvalue = 0.022"] ;
+9 -> 11 ;
+12 [label="Charging Outlets <= 0.984\nmse = 0.0\nsamples = 4\nvalue = 0.038"] ;
+8 -> 12 ;
+13 [label="mse = 0.0\nsamples = 3\nvalue = 0.04"] ;
+12 -> 13 ;
+14 [label="mse = 0.0\nsamples = 1\nvalue = 0.032"] ;
+12 -> 14 ;
+}
