@@ -30,10 +30,12 @@ Root
 |
 +----scripts
 |    getData.py
-
+|    linearRegression.py
 ```
 ## How to run the code
-
+- Python version: 3.7.3
+- Run the getData.py to get the processed_data from raw_data file.
+- Run the linearRegression.py to get the results and graphs from linearRegression analysis.
 ## Third-party modules
 1. numpy
 2. pandas
