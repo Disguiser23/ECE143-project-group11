@@ -42,7 +42,7 @@ Root
 - Run the linearRegression.py to get the results and graphs from linearRegression analysis.
 - Run the decisionTree.py to do prediction based on decsion tree model
 - Run the lassoPrediction.py to do prediction based on lasso model
-- Run the main.ipynb to get all the graphics in this projects
+- Run the main.ipynb to get all the graphics in this project
 ## Third-party modules
 1. numpy
 2. pandas
