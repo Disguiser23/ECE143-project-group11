@@ -24,21 +24,30 @@ to build EV infrastructure.
 ```
 Root
 |
-+----raw_data
++----ECE143.csv                   #Data we used in our model
 |
-+----processed_data
++----py scripts
+|    getData.py                   #Code to preprocess data we used
+|    linearRegression.py          #Code to do linear regression analysis
+|    decisionTree.py              #Code to do prediction based on decsion tree model
+|    lassoPrediction.py           #Code to do prediction based on lasso model
 |
-+----scripts
-|    getData.py
-|    linearRegression.py
++----main.ipynb                   # The main jupyterNotebook to show the results and graphics
+|
++----shape files                  #Data needed to run the lasso model 
 ```
 ## How to run the code
 - Python version: 3.7.3
 - Run the getData.py to get the processed_data from raw_data file.
 - Run the linearRegression.py to get the results and graphs from linearRegression analysis.
+- Run the decisionTree.py to do prediction based on decsion tree model
+- Run the lassoPrediction.py to do prediction based on lasso model
+- Run the main.ipynb to get all the graphics in this project
 ## Third-party modules
 1. numpy
 2. pandas
 3. matplotlib
 4. seaborn
 5. sklearn
+6. geopandas
+7. plotly
