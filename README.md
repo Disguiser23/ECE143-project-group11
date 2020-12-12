@@ -24,7 +24,7 @@ to build EV infrastructure.
 ```
 Root
 |
-+----ECE143.csv                   #Data we used in our model
++----ECE 143.csv                   #Data we used in our model
 |
 +----py scripts
 |    getData.py                   #Code to preprocess data we used
