@@ -29,6 +29,7 @@ Root
 +----getData.py                   #Code to preprocess data we used
 +----linearRegression.py          #Code to do linear regression analysis
 +----decisionTree.py              #Code to do prediction based on decsion tree model
++----randomForest.py              #Code to do prediction based on random forest model
 +----lassoPrediction.py           #Code to do prediction based on lasso model
 |
 +----main.ipynb                   # The main jupyterNotebook to show the results and graphics
