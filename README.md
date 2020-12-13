@@ -26,7 +26,6 @@ Root
 |
 +----ECE 143.csv                   #Data we used in our model
 |
-+----py scripts
 |    getData.py                   #Code to preprocess data we used
 |    linearRegression.py          #Code to do linear regression analysis
 |    decisionTree.py              #Code to do prediction based on decsion tree model
@@ -34,7 +33,9 @@ Root
 |
 +----main.ipynb                   # The main jupyterNotebook to show the results and graphics
 |
-+----shape files                  #Data needed to run the lasso model 
++----shape files                  # map overlays to plot sales data on US map
++----decisionTree                 # Image of decision trees 
++----plots                        # US sales map and correlation plots
 ```
 ## How to run the code
 - Python version: 3.7.3
